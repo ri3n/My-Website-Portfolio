@@ -1,3 +1,60 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b38cab462b391055eefd13ab0a6cfbd37061700a58788fb87d2467c1c0350e6
-size 722
+*{
+font-family: 'Inter', sans-serif;
+    
+    color:black;
+font-size: 110%;
+}
+
+body 
+{
+	background-repeat: no-repeat;
+	background-color:#C5C5C5;
+	background-size:cover;	
+}
+
+#Poster{
+    background-size:cover;
+}
+
+#WebTitle {
+    text-align: center;
+    position:relative;
+}
+
+/*Adjust header sizes*/
+h1{
+    font-size: 225%;
+}
+h2 {
+    font-size:200%;
+}
+h3 {
+font-size: 175%;
+}
+
+h4 {
+font-size:150%;
+}
+
+h5 {
+font-size: 115%;
+}
+
+hr{
+    height:3px;
+    background:black;
+}
+
+/*Back To Top: used in Pastworks_programming*/
+.BACKTOTOP{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightblue;
+    opacity: 0.5;
+}
+
+/*When hovering over back to top, set opacity to 1*/
+.BACKTOTOP:hover{
+    opacity: 1;
+}
