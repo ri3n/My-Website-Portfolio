@@ -1,12 +1,12 @@
 *{
 font-family: 'Syne Tactile', cursive;   
-font-size: 125%;
+font-size: 40px;
 }
 
 body 
 {
 	background-repeat: no-repeat;
-	background-image:linear-gradient(to bottom, black,white);
+	background-image:linear-gradient(to bottom, black,black,white);
 	background-size:cover;	
 }
 
