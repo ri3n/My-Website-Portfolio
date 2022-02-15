@@ -1,0 +1,109 @@
+*{
+font-family: 'Syne Tactile', cursive;   
+font-size: 125%;
+}
+
+body 
+{
+	background-repeat: no-repeat;
+	background-color:#C5C5C5;
+	background-size:cover;	
+}
+
+img.Poster{
+    width:100%;
+    height:100%;
+    background:center;
+    display: table;
+}
+
+/*Adjust header sizes*/
+h2 {
+    font-size:200%;
+}
+/*Div Settings*/
+div.WebTitle {
+    border-top: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+    color:black;
+    text-align: center;
+    display:table;
+    width:100%;
+    height:100px;
+    background: center;
+    background-image: url("../Backgrounds/WebTitleBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.EducationDiv {
+    color:black;
+    float:left;
+    width:25%;
+    height:100px;
+    text-align:center;
+    display: table;
+    background-image:url(../Backgrounds/EducationBG.jpg);
+    background-size:cover;
+    background-color: deepskyblue;
+    border-top:3px;
+    border-top-color:blue;
+    border-top-style:solid;
+}
+div.EducationDiv:hover {
+    background-color:dodgerblue;
+}
+
+div.QualificationDiv {
+    color:black;
+    float:left;
+    width:25%;
+    height:100px;
+    text-align: center;
+    display: table;
+    background-image: url(../Backgrounds/QualificationsBG.jpg);
+    background-size:cover;
+    background-color: darkorange;
+    border-top:3px;
+    border-top-color:red;
+    border-top-style:solid;
+}
+div.QualificationDiv:hover{
+    background-color: orangered;
+}
+div.PastWorksDiv{
+    color:black;
+    float:right;
+    width:25%;
+    height:100px;
+    text-align: center;
+    display: table;
+    background-image:url(../Backgrounds/PastWorksBG.jpg);
+    background-size:cover;
+    background-color:yellow;
+    border-top:3px;
+    border-top-color: yellow;
+    border-top-style:solid;
+}
+div.PastWorksDiv:hover{
+    background-color: yellowgreen;
+}
+div.WorkExperiencesDiv{
+    color:black;
+    float:right;
+    width:25%;
+    height:100px;
+    text-align: center;
+    display: table;
+    background-image:url("../Backgrounds/WorkExperiencesBG.jpg");
+    background-size: cover;
+    background-color:chartreuse;
+    border-top: 3px;
+    border-top-color:green;
+    border-top-style:solid;
+   
+}
+div.WorkExperiencesDiv:hover{
+    background-color:cadetblue;
+}
