@@ -6,7 +6,7 @@ font-size: 125%;
 body 
 {
 	background-repeat: no-repeat;
-	background-color:#C5C5C5;
+	background-image:linear-gradient(to bottom, black,white);
 	background-size:cover;	
 }
 
@@ -43,7 +43,6 @@ div.EducationDiv {
     width:25%;
     height:100px;
     text-align:center;
-    display: table;
     background-image:url(../Backgrounds/EducationBG.jpg);
     background-size:cover;
     background-color: deepskyblue;
@@ -52,7 +51,7 @@ div.EducationDiv {
     border-top-style:solid;
 }
 div.EducationDiv:hover {
-    background-color:dodgerblue;
+    opacity: 0.5;
 }
 
 div.QualificationDiv {
@@ -61,7 +60,6 @@ div.QualificationDiv {
     width:25%;
     height:100px;
     text-align: center;
-    display: table;
     background-image: url(../Backgrounds/QualificationsBG.jpg);
     background-size:cover;
     background-color: darkorange;
@@ -70,7 +68,7 @@ div.QualificationDiv {
     border-top-style:solid;
 }
 div.QualificationDiv:hover{
-    background-color: orangered;
+    opacity: 0.5;
 }
 div.PastWorksDiv{
     color:black;
@@ -78,7 +76,6 @@ div.PastWorksDiv{
     width:25%;
     height:100px;
     text-align: center;
-    display: table;
     background-image:url(../Backgrounds/PastWorksBG.jpg);
     background-size:cover;
     background-color:yellow;
@@ -87,7 +84,7 @@ div.PastWorksDiv{
     border-top-style:solid;
 }
 div.PastWorksDiv:hover{
-    background-color: yellowgreen;
+    opacity: 0.5;
 }
 div.WorkExperiencesDiv{
     color:black;
@@ -95,7 +92,6 @@ div.WorkExperiencesDiv{
     width:25%;
     height:100px;
     text-align: center;
-    display: table;
     background-image:url("../Backgrounds/WorkExperiencesBG.jpg");
     background-size: cover;
     background-color:chartreuse;
@@ -105,5 +101,5 @@ div.WorkExperiencesDiv{
    
 }
 div.WorkExperiencesDiv:hover{
-    background-color:cadetblue;
+    opacity: 0.5;
 }
