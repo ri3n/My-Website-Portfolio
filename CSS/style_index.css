@@ -21,6 +21,12 @@ img.Poster{
 h2 {
     font-size:200%;
 }
+
+/*@keyframes animations*/
+@keyframes FadeOnHover{
+    from {opacity:100%;} 
+    to {opacity:50%;}
+}
 /*Div Settings*/
 div.WebTitle {
     border-top: 5px;
@@ -50,9 +56,13 @@ div.EducationDiv {
     border-top-color:blue;
     border-top-style:solid;
 }
+
 div.EducationDiv:hover {
-    opacity: 0.5;
+    animation-name: FadeOnHover;
+    animation-duration: 0.5s;
+    opacity:0.5;
 }
+
 
 div.QualificationDiv {
     color:black;
@@ -68,7 +78,9 @@ div.QualificationDiv {
     border-top-style:solid;
 }
 div.QualificationDiv:hover{
-    opacity: 0.5;
+    animation-name: FadeOnHover;
+    animation-duration: 0.5s;
+    opacity:0.5;
 }
 div.PastWorksDiv{
     color:black;
@@ -84,7 +96,9 @@ div.PastWorksDiv{
     border-top-style:solid;
 }
 div.PastWorksDiv:hover{
-    opacity: 0.5;
+    animation-name: FadeOnHover;
+    animation-duration: 0.5s;
+    opacity:0.5;
 }
 div.WorkExperiencesDiv{
     color:black;
@@ -101,5 +115,7 @@ div.WorkExperiencesDiv{
    
 }
 div.WorkExperiencesDiv:hover{
-    opacity: 0.5;
+    animation-name: FadeOnHover;
+    animation-duration: 0.5s;
+    opacity:0.5;
 }

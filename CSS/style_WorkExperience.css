@@ -7,8 +7,9 @@ font-size: 110%;
 
 body 
 {
+    
 	background-repeat: no-repeat;
-	background-color:#C5C5C5;
+	background-color:limegreen;
 	background-size:cover;	
 }
 
@@ -45,16 +46,112 @@ hr{
     background:black;
 }
 
-/*Back To Top: used in Pastworks_programming*/
-.BACKTOTOP{
-    position: fixed;
+#background-wrap {
     bottom: 0;
-    right: 0;
-    background-color: lightblue;
-    opacity: 0.5;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
 }
 
-/*When hovering over back to top, set opacity to 1*/
-.BACKTOTOP:hover{
-    opacity: 1;
+
+/* KEYFRAMES */
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    
+	animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: -5%;
+	top: 5%;
+
+	transform: scale(2);
+}
+
+.x2 {
+	animation: animateBubble 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 80%;
+	
+	transform: scale(1);
+}
+
+.x3 {
+	animation: animateBubble 17s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 10%;
+	top: 40%;
+	
+	transform: scale(0.7);
+}
+
+.x8 {
+	animation: animateBubble 16s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 10%;
+	
+	transform: scale(1.5);
+}
+
+.x9 {
+	animation: animateBubble 18s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 90%;
+	top: 50%;
+	
+	transform: scale(1.25);
+}
+
+.x10 {
+	animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 80%;
+	
+	transform: scale(0.8);
+}
+
+/* OBJECTS */
+
+.bubble {
+	border-radius: 50%;
+	box-shadow: none;
+    height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+.bubble:after {
+    background: radial-gradient(ellipse at center,  rgba(255,255,0,1) 0%,rgba(255,255,255,0) 75%);  
+    
+    border-radius: 50%;
+	
+	content: "";
+    height: 180px;
+	left: 10px;
+	position: absolute;
+	width: 180px;
 }

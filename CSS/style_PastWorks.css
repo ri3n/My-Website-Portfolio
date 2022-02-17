@@ -7,9 +7,11 @@ font-size: 110%;
 
 body 
 {
+    background-image: url(../Backgrounds/PastWorksBG.jpg);
 	background-repeat: no-repeat;
 	background-color:#C5C5C5;
 	background-size:cover;	
+    background-attachment: fixed;
 }
 
 #Poster{
@@ -49,12 +51,33 @@ hr{
 .BACKTOTOP{
     position: fixed;
     bottom: 0;
-    right: 0;
+    right:0;
     background-color: lightblue;
-    opacity: 0.5;
+    opacity: 0.75;
+    
+    border-top-left-radius: 100%;
+    width:200px;
+    height:100px;
 }
 
 /*When hovering over back to top, set opacity to 1*/
 .BACKTOTOP:hover{
     opacity: 1;
+}
+
+
+#backtotopP{
+    font-size:100%;
+    position:absolute;
+    text-align: right;
+    bottom:0;
+    right:0;
+}
+
+#BackToTopA:hover{
+    color: red;
+}
+
+#BackToMainA:hover{
+    color:red;
 }

@@ -1,24 +1,17 @@
 *{
-font-family: 'Inter', sans-serif;
-    
+    font-family: 'Shizuru', cursive;
     color:black;
-font-size: 110%;
+    font-size: 110%;   
 }
 
 body 
 {
-	background-repeat: no-repeat;
-	background-color:#C5C5C5;
-	background-size:cover;	
-}
-
-#Poster{
-    background-size:cover;
-}
-
-#WebTitle {
-    text-align: center;
-    position:relative;
+	background-image:linear-gradient(to bottom, dodgerblue,skyblue);
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Adjust header sizes*/
@@ -45,16 +38,4 @@ hr{
     background:black;
 }
 
-/*Back To Top: used in Pastworks_programming*/
-.BACKTOTOP{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: lightblue;
-    opacity: 0.5;
-}
 
-/*When hovering over back to top, set opacity to 1*/
-.BACKTOTOP:hover{
-    opacity: 1;
-}
