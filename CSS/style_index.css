@@ -58,9 +58,7 @@ div.EducationDiv {
 }
 
 div.EducationDiv:hover {
-    animation-name: FadeOnHover;
-    animation-duration: 0.5s;
-    opacity:0.5;
+    animation:FadeOnHover 0.5s infinite alternate;
 }
 
 
@@ -78,9 +76,7 @@ div.QualificationDiv {
     border-top-style:solid;
 }
 div.QualificationDiv:hover{
-    animation-name: FadeOnHover;
-    animation-duration: 0.5s;
-    opacity:0.5;
+    animation:FadeOnHover 0.5s infinite alternate;
 }
 div.PastWorksDiv{
     color:black;
@@ -96,9 +92,7 @@ div.PastWorksDiv{
     border-top-style:solid;
 }
 div.PastWorksDiv:hover{
-    animation-name: FadeOnHover;
-    animation-duration: 0.5s;
-    opacity:0.5;
+    animation:FadeOnHover 0.5s infinite alternate;
 }
 div.WorkExperiencesDiv{
     color:black;
@@ -115,7 +109,6 @@ div.WorkExperiencesDiv{
    
 }
 div.WorkExperiencesDiv:hover{
-    animation-name: FadeOnHover;
-    animation-duration: 0.5s;
-    opacity:0.5;
+    animation:FadeOnHover 0.5s infinite alternate;
+
 }
