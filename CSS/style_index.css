@@ -24,8 +24,10 @@ h2 {
 
 /*@keyframes animations*/
 @keyframes FadeOnHover{
-    from {opacity:100%;} 
-    to {opacity:50%;}
+    0% {
+        opacity:100%;
+    } 
+    100% {opacity:50%;}
 }
 /*Div Settings*/
 div.WebTitle {
