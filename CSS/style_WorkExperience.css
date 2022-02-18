@@ -7,10 +7,10 @@ font-size: 110%;
 
 body 
 {
-    
 	background-repeat: no-repeat;
 	background-color:limegreen;
 	background-size:cover;	
+    overflow:hidden;
 }
 
 #Poster{
@@ -56,6 +56,57 @@ hr{
 }
 
 
+@keyframes BringOutTab{
+    from 
+    {
+        width: 50px;
+        height:50px;
+        opacity: 0.75;
+        font-size: 0%;
+    }
+    
+    to 
+    {
+        width: 175px;
+        height: 125px;
+        opacity: 1;
+        font-size: 150%;
+    }
+}
+
+/*BackToTop (bottom right div) code*/
+.BACKTOTOP{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    background-color: yellow;
+    opacity: 0.75;
+    
+    border-top-left-radius: 100%;
+    width:50px;
+    height:50px;
+    font-size: 0%;
+    
+    display: block;
+    text-align: right;
+}
+
+.BACKTOTOP:hover{
+    animation: BringOutTab 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.BackToTopPara{
+    position:absolute;
+    bottom:0;
+    right:15%;
+}
+
+.link:hover{
+    color: red;
+}
+
+/* BUBBLE CODE */
 /* KEYFRAMES */
 
 @keyframes animateBubble {
@@ -155,3 +206,29 @@ hr{
 	position: absolute;
 	width: 180px;
 }
+
+@keyframes FlyingBirds{
+    
+    0%{
+        left:-100%;
+        top:50%;
+    }
+    
+    100%{
+        left:125%;
+        top:0%;
+    }
+}
+
+#flyingbirds{
+    background-image: url(../WorkExperiences/flyingbirds.gif);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    animation: FlyingBirds 15s infinite;
+    position: absolute;
+    transform:rotateY(180deg);
+}
+
+
