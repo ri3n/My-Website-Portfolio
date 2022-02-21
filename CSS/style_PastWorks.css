@@ -136,3 +136,10 @@ hr{
     animation: RainbowriseFont 5s linear infinite alternate;
     animation-fill-mode: forwards;
 }
+
+.Video{
+    height: 750px;
+    width:1000px;
+    border: 0px;
+    display: block;
+}
