@@ -22,6 +22,15 @@ body
     position:relative;
 }
 
+/*Gradient Moving*/
+@keyframes MovingGradient{
+    0%{
+        background-image: linear-gradient(to right, green, lightgreen);
+    }
+    100%{
+        background-image:linear-gradient(to right, lightgreen, green);
+    }
+}
 /*Adjust header sizes*/
 h1{
     font-size: 225%;
