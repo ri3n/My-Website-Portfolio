@@ -114,3 +114,35 @@ div.WorkExperiencesDiv:hover{
     animation:FadeOnHover 0.5s infinite alternate;
 
 }
+
+div#AboutMeTitle{
+    width: 100%;
+    height:100px;
+    text-align: center;
+}
+
+div#AboutMeText{
+    width:49%;
+    float:right;
+    text-align: left;
+}
+
+img#AboutMePhoto{
+    width: 50%;
+    height: 100%;
+    float:left;
+    display: block;
+    border-width: medium;
+    border-style:solid;
+    border-color: black;
+
+}
+div#ContactMe{
+    float:right;
+    text-align: left;
+    width: 49%;
+}
+img.icon{
+    width: 10%;
+    height: 10%;
+}
