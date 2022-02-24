@@ -6,7 +6,7 @@ font-size: 125%;
 body 
 {
 	background-repeat: no-repeat;
-	background-image:linear-gradient(to bottom, black,black,white);
+	background-image:linear-gradient(to bottom, black,white);
 	background-size:cover;	
 }
 
