@@ -49,7 +49,7 @@ div.EducationDiv {
     color:black;
     float:left;
     width:25%;
-    height:100px;
+    height:150px;
     text-align:center;
     background-image:url(../Backgrounds/EducationBG.jpg);
     background-size:cover;
@@ -68,7 +68,7 @@ div.QualificationDiv {
     color:black;
     float:left;
     width:25%;
-    height:100px;
+    height:150px;
     text-align: center;
     background-image: url(../Backgrounds/QualificationsBG.jpg);
     background-size:cover;
@@ -85,7 +85,7 @@ div.PastWorksDiv{
     color:black;
     float:right;
     width:25%;
-    height:100px;
+    height:150px;
     text-align: center;
     background-image:url(../Backgrounds/PastWorksBG.jpg);
     background-size:cover;
@@ -101,7 +101,7 @@ div.WorkExperiencesDiv{
     color:black;
     float:right;
     width:25%;
-    height:100px;
+    height:150px;
     text-align: center;
     background-image:url("../Backgrounds/WorkExperiencesBG.jpg");
     background-size: cover;
