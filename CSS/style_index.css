@@ -1,6 +1,6 @@
 *{
 font-family: 'Syne Tactile', cursive;   
-font-size: 125%;
+font-size: 3vw;
 }
 
 body 
@@ -19,7 +19,7 @@ img.Poster{
 
 /*Adjust header sizes*/
 h2 {
-    font-size:200%;
+    font-size:4vw;
 }
 
 /*@keyframes animations*/
@@ -76,6 +76,7 @@ div.QualificationDiv {
     border-top:3px;
     border-top-color:red;
     border-top-style:solid;
+
 }
 div.QualificationDiv:hover{
     animation:FadeOnHover 0.5s infinite alternate;
@@ -117,14 +118,17 @@ div.WorkExperiencesDiv:hover{
 
 div#AboutMeTitle{
     width: 100%;
-    height:100px;
     text-align: center;
+    font-family: 'Teko', sans-serif;
 }
 
 div#AboutMeText{
     width:49%;
     float:right;
     text-align: left;
+    font-family: 'Teko', sans-serif;
+    font-size: 3vw;
+    font-size-adjust: auto;
 }
 
 img#AboutMePhoto{
@@ -141,6 +145,8 @@ div#ContactMe{
     float:right;
     text-align: left;
     width: 49%;
+    font-family: 'Teko', sans-serif;
+    font-size: 3vw%;
 }
 img.icon{
     width: 10%;
