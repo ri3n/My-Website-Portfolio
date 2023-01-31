@@ -1,0 +1,54 @@
+*{
+font-family: 'Inter', sans-serif;
+    
+    color:black;
+font-size: 110%;
+}
+
+body 
+{
+    background-image: url(../Backgrounds/PastWorksBG.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;	
+    background-attachment: fixed;
+}
+
+#title{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    left:50%;
+    font-family: fantasy;
+    font-stretch: expanded;
+    font-size: 200%;
+}
+
+.tab {
+  border: 1px solid #ccc;
+  background-color: #ffcc66;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}

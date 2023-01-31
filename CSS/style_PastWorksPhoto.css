@@ -1,0 +1,68 @@
+*{
+font-family: 'Inter', sans-serif;
+    
+    color:black;
+font-size: 110%;
+}
+
+body 
+{
+    background-image: url(../Backgrounds/PastWorksBG.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;	
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 225%;
+}
+h2{
+    font-size: 200%;
+}
+
+/*BackToTop (bottom right div) code*/
+.BACKTOTOP{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    background-color: lightblue;
+    opacity: 0.75;
+    
+    border-top-left-radius: 100%;
+    width:50px;
+    height:50px;
+    font-size: 0%;
+    
+    display: block;
+    text-align: right;
+}
+
+.BACKTOTOP:hover{
+    animation: BringOutTab 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.BackToTopPara{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+@keyframes BringOutTab{
+    from 
+    {
+        width: 50px;
+        height:50px;
+        opacity: 0.75;
+        font-size: 0%;
+    }
+    
+    to 
+    {
+        width: 175px;
+        height: 125px;
+        opacity: 1;
+        font-size: 100%;
+    }
+}
+
